@@ -19,3 +19,6 @@ This is a fun project, and anyone is free to contribute, modify, or improve it! 
 git clone https://github.com/chandhruyuva006/IPL_match_simulation_with_fantasy_points.git
 cd IPL_match_simulation_with_fantasy_points 
 ```
+## Running
+- No additional libraries required
+- Simply navigate to the folder and run the main.py file in VSCODE or sublime text
