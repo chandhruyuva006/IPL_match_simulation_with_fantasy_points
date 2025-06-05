@@ -30,13 +30,13 @@ def skill_based_weights(skill: float) -> list[float]:
 	return weights
 
 class Player:
-	 """
-    Represents a cricket player with a name and skill rating.
+	"""
+	Represents a cricket player with a name and skill rating.
 
-    Attributes:
-        name (str): The player's name.
-        skill (float): The player's skill rating.
-    """
+	Attributes:
+		name (str): The player's name.
+		skill (float): The player's skill rating.
+	"""
 	def __init__(self,name, skill):
 		self.name = name 
 		self.skill = skill
