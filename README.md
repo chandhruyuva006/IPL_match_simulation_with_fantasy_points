@@ -21,4 +21,4 @@ cd IPL_match_simulation_with_fantasy_points
 ```
 ## Running
 - No additional libraries required
-- Simply navigate to the folder and run the main.py file in VSCODE or sublime text
+- Simply navigate to the folder and run the full_tournament.py and each match results will be stored in the current directory as {team 1}_vs_{team2}.txt file
