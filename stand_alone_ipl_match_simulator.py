@@ -212,7 +212,6 @@ def simulate_innings(inning_number, batting_team, fielding_team, target = None):
 			striker_i = next_i
 			next_i+=1
 			
-			
 		else:
 			score += ball_outcome
 			if ball_outcome %2:
@@ -312,7 +311,7 @@ filename = f'{CURRENT_MATCH_ID} {team1_name} vs {team2_name}.txt'
 
 
 def main():
-	
+
 	team1 = prepare_playing_eleven( team1_player_names, team1_bowlers, team1_keeper)
 	team2 = prepare_playing_eleven( team2_player_names, team2_bowlers, team2_keeper)
 
