@@ -22,3 +22,8 @@ cd IPL_match_simulation_with_fantasy_points
 ## Running
 - No additional libraries required
 - Simply navigate to the folder and run the full_tournament.py and each match results will be stored in the current directory as {team 1}_vs_{team2}.txt file
+
+## Running the single_match_streamlit.py 
+- It needs streamlit installed.
+- if need to have the same results, then use random.seed(some fixed number) in the .py file.
+- if different results needed not use the random.seed () just reload the streamlit interface in the browser.
